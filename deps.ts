@@ -1,0 +1,46 @@
+export { assertEquals } from "https://deno.land/std@0.176.0/testing/asserts.ts";
+export { delay } from "https://deno.land/std@0.176.0/async/delay.ts";
+
+export {
+  Action,
+  Condition,
+  fbeMetaclass,
+  Instigation,
+  NotifyingHolon,
+  Premise,
+  Rule,
+} from "https://raw.githubusercontent.com/hviana/cellNOP/main/mod.ts";
+
+export {
+  add,
+  and,
+  anyo,
+  appendo,
+  arrayo,
+  conso,
+  div,
+  emptyo,
+  eq,
+  facts,
+  fail,
+  firsto,
+  ge,
+  gt,
+  ImmutableMap,
+  isLVar,
+  le,
+  lt,
+  LVar,
+  lvar,
+  membero,
+  mul,
+  not,
+  numbero,
+  or,
+  resto,
+  run,
+  stringo,
+  sub,
+  succeed,
+  walk,
+} from "https://deno.land/x/logic_ts/mod.ts";
